@@ -14,7 +14,8 @@ import math
 
 # This method contains a bug. In your commit note, state the bug and how you fixed it
 def calculate_hypotenuse(side_a, side_b):
-    result = side_a + side_b  
+    side_c_squared = side_a**2 + side_b**2  
+    result = math.sqrt(side_c_squared)
     return result
 
 # This method contains a bug. In your commit note, state the bug and how you fixed it
