@@ -1,6 +1,6 @@
-# YOUR NAME HERE
-# YOUR SECTION HERE
-# DATE OF EDITING HERE
+# Khadeja Mohsin
+# Section 01
+# 1/16/2026
 
 """
 ASSIGNMENT: INTRODUCTION TO MERGING
@@ -72,7 +72,7 @@ def curve_scores(scores):
 # For scenario three change the name of this method.
 # For scenario five fix the typos
 def _validate_input_check(text_value):
-
+  #already had fixed the typos in anearlier branch
   valid_input = True 
   
   if text_value is None:
