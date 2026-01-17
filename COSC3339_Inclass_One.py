@@ -28,7 +28,7 @@ def count_words(sentence):
 
 # This method is long to allow for non-overlapping edits.
 def calculate_shipping_cost(weight, destination):
-    cost = 3.9 # set to 3.9
+    cost = 3.9 # set to $3.9
     
     if destination == "US":
         base_cost = 7.0 # changed base cost from 5 to 7
